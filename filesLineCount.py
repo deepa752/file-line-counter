@@ -1,5 +1,7 @@
 import os, send2trash
+#Here we have to import os and send2trash
 path = os.getcwd()
+
 count = 0
 file_name= raw_input("Enter txt filename: ")
 # extension= raw_input("enter the file extension which you want to count: ")
@@ -23,7 +25,7 @@ for folderName, subfolders, filenames in os.walk(path):
         else:    
             if main_file not in countable_files:
                     countable_files.append(main_file)
-                # if extension in main_file:
+#               if extension in main_file:
                     print main_file
                     files = open(folderName+"/"+main_file , "r")
                     data = files.readlines()
