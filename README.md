@@ -1,7 +1,7 @@
 # file-line-counter
 install send2trash using "pip install send2trash".
 
-create a txt file with the name of folders and file which you wan to ignore
+create a txt file with the name of folders and file which you want to ignore
 
 The filesLinecount.py and the txt file which have all the names of the files and folders which you want to  ignore both should be in same directory
 
